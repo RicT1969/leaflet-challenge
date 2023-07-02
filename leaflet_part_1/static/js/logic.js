@@ -157,7 +157,7 @@ function createFeatures() {
             </tr>
             <tr>
               <td><div style="width: 20px; height: 20px; background-color: #800000;"></div></td>
-              <td>&gt;=300</td>
+              <td>&gt;300</td>
             </tr>
           </table>
         </div>
