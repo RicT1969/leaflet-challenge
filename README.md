@@ -7,12 +7,12 @@
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
 
 <h3>The requirements of the exercise is to:</h3><ol>
-  <li>Load tilelayers for the map</li>
-  <li>Connect to GeoJSON API using d3</li>
-  <li>Visualise the earthquakes with data points with markers (in this case circle markers) whose size is scaled to earthquake magnitude</li>
-  <li>The colour of the markers to change according to depth recorded for each earthquake data point</li>
-  <li>Each data point to have a popup giving details of the magnitude, location and depth of the earthquake</li>
-  <li>To provide a legend showing the depth of each earthquake and thier corresponding colour.</li></ol>
+<li>Load tilelayers for the map</li>
+<li>Connect to GeoJSON API using d3</li>
+<li>Visualise the earthquakes with data points with markers (in this case circle markers) whose size is scaled to earthquake magnitude</li>
+<li>The colour of the markers to change according to depth recorded for each earthquake data point</li>
+<li>Each data point to have a popup giving details of the magnitude, location and depth of the earthquake</li>
+<li>To provide a legend showing the depth of each earthquake and thier corresponding colour.</li></ol>
 
 
 <p><b>Image of the output produced by the code is shown below.</b></p>
