@@ -63,7 +63,8 @@ https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
     <li>Add the "Earthquakes" layer to the map.</li>
     <li>Add the legend to the map.</li></ul></ul>
   <li>Call the createFeatures() function to initiate the process of fetching data and adding it to the map.</li></ul>
-  <p>The code would be improved by making the colour scale dynamic based on the range of depth contained in the data - given time this was not pursued, although Chroma.js library (https://gka.github.io/chroma.js/) and an alternative using d3 - https://github.com/d3/d3-scale-chromatic, provide good sources.
+  <p>The code would be improved by making the colour scale dynamic based on the range of depth contained in the data - given time this was not pursued, although Chroma.js library (https://gka.github.io/chroma.js/) and an alternative using d3 - https://github.com/d3/d3-scale-chromatic, provide good sources.</p>
+  <p>The legend shows that the depth ranges are not equal. This is because the range of depths goes form 0 to > 700m, wiht only a few earthquakes being deeper than 500m. If the scale chosen had equalk ranges, then there would have been many categories, or else the colour differentiation would have had limited use. A colour gradient would have provided more suitable ranges (at risk of colour differences being too subtle to be discernable. Most earthquakes in the data set are shallow, hence greater differentiation at the lower depths, and larger ranges at the higher end.
   <p>In order to avoid CORS policy violation a local server was run using the live server provided by Visual Studio (http://127.0.0.1:5500/), and the Python server (localhost 8000)</p>
 
 <h2>Sources</h2><ul>
